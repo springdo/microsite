@@ -1,4 +1,4 @@
-baseurl = "https://example.com/" # Include trailing slash
+baseurl = "https://springdo.github.io/microsite/" # Include trailing slash
 canonifyurls = true 
 paginate = 6 
 theme = "newsroom" 
