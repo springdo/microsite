@@ -3,11 +3,11 @@
   <nav class="nav-menu">
 
     
-    <img src="{{ .Site.Params.rh_logo }}" class="nav-logos">
+    <img src="{{ $home }}/{{ .Site.Params.rh_logo }}" class="nav-logos">
     <a href="{{ $home }}" class="nav-brand nav_item" style="text-align: center;">
       {{ .Site.Title }}
     </a>
-    <img src="{{ .Site.Params.cust_logo }}" class="nav-logos" style="float:right;">
+    <img src="{{ $home }}/{{ .Site.Params.cust_logo }}" class="nav-logos" style="float:right;">
 
     <div class="nav_bar-wrap">
       <div class="nav_bar"></div>
