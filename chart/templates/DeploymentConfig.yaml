@@ -42,13 +42,15 @@ spec:
           {{- if .Values.fathom }}
           - mountPath: "/opt/app-root/src/assets/analytics/"
             name: "fathom-config"
-          {{- end }}          
+          {{- end }}
         readinessProbe:
+          {{- if .Values.readinessProbe }}
           httpGet:
             path: /
             port: 8080
           initialDelaySeconds: 10
           timeoutSeconds: 1
+          {{- end }}
       dnsPolicy: ClusterFirst
       restartPolicy: Always
       schedulerName: default-scheduler

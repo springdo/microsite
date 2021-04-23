@@ -1,5 +1,8 @@
-app_name: pet-battle
-replicas: 1
+app_name: microsite
+
+fullnameOverride: microsite
+
+replicas: 6
 # build info not used atm
 build:
   enabled: false
@@ -7,11 +10,11 @@ build:
   source_docker_file_path: Dockerfile
   # source_context_dir: "/"
   # source_ref: master
-  # source_repo: https://github.com/springdo/pet-battle.git
+  # source_repo: https://github.com/springdo/microsite.git
 # Docker deets
-image_repository: quay.io
-image_name: pet-battle
-image_namespace: petbattle
+image_repository: image-registry.openshift-image-registry.svc:5000
+image_name: microsite
+image_namespace: residency
 # likely over written by the Argo definition
 image_version: latest
 a_b_deploy:
@@ -21,15 +24,4 @@ fathom: false
 # OCP route
 route: true
 # custom end point injected by config map. This is likely to changed
-config_map: '{
-  "catsUrl": "https://pet-battle-api-labs-test.apps.hivec.sandbox1405.opentlc.com",
-  "tournamentsUrl": "https://pet-battle-tournament-labs-test.apps.hivec.sandbox1405.opentlc.com",
-  "matomoUrl": "https://pba-matomo-exp.apps.hivec.sandbox1405.opentlc.com/",
-  "keycloak": {
-    "url": "https://keycloak-labs-test.apps.hivec.sandbox1405.opentlc.com/auth/",
-    "realm": "pbrealm",
-    "clientId": "pbclient",
-    "redirectUri": "http://localhost:4200/tournament",
-    "enableLogging": true
-  }
-}'
+config_map: '{}'

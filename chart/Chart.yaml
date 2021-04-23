@@ -1,11 +1,10 @@
 apiVersion: v2
-name: pet-battle
-description: Pet Battle Frontend
+name: microsite
+description: Microsite Nginx Server
 type: application
 version: 1.0.6
 appVersion: 0.0.1
-home: https://petbattle.github.io/helm-charts
+home: https://springdo.github.io/microsite
 icon: https://avatars1.githubusercontent.com/u/68044996?s=200&v=4
 maintainers:
   - name: springdo
-  - name: eformat
