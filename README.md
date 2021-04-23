@@ -25,6 +25,7 @@ oc start-build microsite --from-dir=. --follow
 
 # deploy the app
 helm install ms chart
+open https://$(oc get route microsite --template='{{ .spec.host }}' -n residency)
 ```
 
 ## 🎨 Creating Content
