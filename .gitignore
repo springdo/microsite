@@ -2,6 +2,9 @@
 /public
 /resources
 
+/chart/charts/*
+chart/Chart.lock
+
 ## OS Files
 # Windows
 Thumbs.db
