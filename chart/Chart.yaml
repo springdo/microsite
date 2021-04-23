@@ -8,3 +8,7 @@ home: https://springdo.github.io/microsite
 icon: https://avatars1.githubusercontent.com/u/68044996?s=200&v=4
 maintainers:
   - name: springdo
+dependencies:
+  - name: matomo
+    version: 4.1.1+01
+    repository: https://petbattle.github.io/helm-charts
