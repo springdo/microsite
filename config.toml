@@ -1,5 +1,5 @@
-baseurl = "https://springdo.github.io/microsite/" # Include trailing slash
-canonifyurls = true 
+# baseurl = "/" # Include trailing slash
+relativeurls = true
 paginate = 6 
 theme = "newsroom" 
 title = "Virtual Residency" 
