@@ -1,6 +1,6 @@
 (function(){
   const doc = document.documentElement;
-  const parentURL = 'https://springdo.github.io/';
+  const parentURL = '/';
 
   function createEl(element='div') {
     return document.createElement(element);
