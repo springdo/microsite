@@ -663,11 +663,22 @@ aside h3 {
   color: var(--theme);
 }
 
-.nav-brand {
-  font-family: "RedHatDisplayVF";
-  font-size: 2em !important;
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
+@media all and (min-width: 768px) {
+  .nav-brand {
+    font-family: "RedHatDisplayVF";
+    font-size: 2em !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .nav-brand {
+    font-family: "RedHatDisplayVF";
+    font-size: 1.4em !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
 }
 
 .nav-close {
@@ -1339,6 +1350,18 @@ pre {
   max-height: 1.9rem;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+@media all and (min-width: 768px) {
+  .hidden-on-desktop {
+    display: none !important;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .hidden-on-mobile {
+    display: none !important;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
