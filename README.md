@@ -24,6 +24,7 @@ oc new-build --binary --name=microsite --strategy=docker
 oc start-build microsite --from-dir=. --follow
 
 # deploy the app
+helm dep up chart
 helm install ms chart
 open https://$(oc get route microsite --template='{{ .spec.host }}' -n residency)
 ```
