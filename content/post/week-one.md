@@ -8,7 +8,7 @@ categories = [
 "Development",
 "golang",
 ]
-image = "star-wars/death-star.jpeg"
+image = "uj-logo.png"
 +++
 
 This can't be! Artoo, you're playing the wrong message. There will be no bargain. We're doomed.

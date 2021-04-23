@@ -8,10 +8,14 @@ To build and serve the application, first pull the submodule to bring down the t
 git submodule update --init --recursive
 hugo server
 ```
+
 ## 🎨 Build and run on OpenShift
 ```bash
 # build the app locally
 hugo
+
+# generate a new site password
+htpasswd -c  $(pwd)/.htpasswd redhat
 
 # build the image in OpenShift
 oc login ...

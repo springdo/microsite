@@ -2,7 +2,7 @@
 author = "Donal"
 title = "Week Two Report"
 date = "2021-04-22"
-description = "All the action from the first Week of the Virtual Residency"
+description = "The Adventure continues!"
 tags = ["reports", "residency"]
 categories = [
 "Development",
