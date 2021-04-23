@@ -60,11 +60,19 @@
       &:hover
         color: var(--theme)
 
-  &-brand
-    font-family: "RedHatDisplayVF"
-    font-size: 2em !important
-    padding-top: 0 !important
-    padding-bottom: 0 !important
+  @media all and (min-width: 768px)
+    &-brand
+      font-family: "RedHatDisplayVF"
+      font-size: 2em !important
+      padding-top: 0 !important
+      padding-bottom: 0 !important
+
+  @media all and (max-width: 767px) 
+    &-brand
+      font-family: "RedHatDisplayVF"
+      font-size: 1.4em !important
+      padding-top: 0 !important
+      padding-bottom: 0 !important
 
   &-close
     display: flex
