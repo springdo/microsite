@@ -1,5 +1,5 @@
 baseurl = "https://microsite-residency.apps.biscuits.weld.p1.openshiftapps.com/" # Include trailing slash
-relativeurls = false
+# relativeurls = false
 paginate = 6 
 theme = "newsroom" 
 title = "Virtual Residency" 
