@@ -1,6 +1,6 @@
 (function(){
   const doc = document.documentElement;
-  const parentURL = '/';
+  const parentURL = 'https://microsite-residency.apps.biscuits.weld.p1.openshiftapps.com/';
 
   function createEl(element='div') {
     return document.createElement(element);
