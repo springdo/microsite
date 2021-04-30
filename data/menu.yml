@@ -1,8 +1,10 @@
+- item: Home
+  url: "/"
 - item: About
-  url: about/
+  url: "about/"
 - item: Reports
-  url: ""
+  url: "reports/"
 - item: Blogs
-  url: blogs
+  url: "blogs"
 - item: Techie Corner
-  url: techie-corner
+  url: "techie-corner"

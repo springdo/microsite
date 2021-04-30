@@ -15,6 +15,7 @@ build:
 image_repository: image-registry.openshift-image-registry.svc:5000
 image_name: microsite
 image_namespace: residency
+
 # likely over written by the Argo definition
 image_version: latest
 a_b_deploy:

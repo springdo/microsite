@@ -30,7 +30,7 @@ open https://$(oc get route microsite --template='{{ .spec.host }}' -n residency
 ```
 
 ## 🎨 Creating Content
-Add posts in Markdown to the `content/post` directory. Example:
+Add reports in Markdown to the `content/reports` directory. Example:
 ```markdown
 +++
 author = "Donal"

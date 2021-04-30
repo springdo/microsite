@@ -1,13 +1,10 @@
 +++
-title = "The Dream Team 🌤💤"
+title = "Techie Corner"
 date = "2021-04-22"
-image = 'star-wars/death-star.jpeg'
-layout = 'about'
 type = "page"
-
+layout = "techie-corner"
+image = 'star-wars/death-star.jpeg'
 +++
-
-## THIS IS WHO WE ARE !?
 
 Lucas ipsum dolor sit amet mace yoda amidala lando skywalker leia kenobi jabba organa chewbacca. Chewbacca kashyyyk mustafar ewok palpatine antilles kashyyyk gonk. Sidious grievous skywalker lobot mustafar yoda hoth vader. Qui-gonn ackbar r2-d2 hutt. Darth lando leia han antilles jinn. Alderaan antilles qui-gonn mace owen yoda maul. Darth moff dagobah secura sith. Amidala maul boba dagobah secura mace dooku. Dagobah organa sidious hoth. Wedge ventress skywalker darth. Darth mothma sith ventress qui-gonn yavin moff han.
 

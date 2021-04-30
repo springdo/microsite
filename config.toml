@@ -1,8 +1,9 @@
-baseurl = "https://microsite-residency.apps.biscuits.weld.p1.openshiftapps.com/" # Include trailing slash
+baseurl = "https://microsite-labs-test.apps.ma.4wpo.p1.openshiftapps.com/" # Include trailing slash
 # relativeurls = false
 paginate = 6 
 theme = "newsroom" 
 title = "Virtual Residency" 
+disableDarkMode = true
 
 [params]
 cust_logo = "images/logos/ma.png"
@@ -10,7 +11,7 @@ cust_logo_mobile = "images/logos/ma-mobile.png"
 rh_logo = "images/logos/rht-labs.png"
 rh_logo_mobile = "images/logos/rht-logo.png"
 # locale = "en_US"
-matomo_url = "ms-matomo-residency.apps.biscuits.weld.p1.openshiftapps.com"
+matomo_url = "ms-matomo-labs-test.apps.ma.4wpo.p1.openshiftapps.com"
 # ga_analytics = "" # google analytics ID e.g UA-116386578-1
 # ga_verify = "" # google verification code e.g 5jb-rxeBfITeJQKOuUss3ud6FPGTxXkCho-ZN5qlrZg
 # twitter = "" # twitter handle e.g @weru

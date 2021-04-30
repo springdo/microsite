@@ -1,10 +1,8 @@
 +++
-title = "The Dream Team 🌤💤"
+title = "First blog"
 date = "2021-04-22"
 image = 'star-wars/death-star.jpeg'
-layout = 'about'
-type = "page"
-
+type = 'blog'
 +++
 
 ## THIS IS WHO WE ARE !?
